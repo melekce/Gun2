@@ -14,6 +14,8 @@
 		07A658841C79C2B700FBBE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A658821C79C2B700FBBE69 /* LaunchScreen.storyboard */; };
 		07A6588F1C79C2B700FBBE69 /* SwiftGun2IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A6588E1C79C2B700FBBE69 /* SwiftGun2IOSTests.swift */; };
 		07A6589A1C79C2B700FBBE69 /* SwiftGun2IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A658991C79C2B700FBBE69 /* SwiftGun2IOSUITests.swift */; };
+		07A658A81C79D85900FBBE69 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A658A71C79D85900FBBE69 /* SecondViewController.swift */; };
+		07A658AA1C7A2BEA00FBBE69 /* YasSayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A658A91C7A2BEA00FBBE69 /* YasSayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		07A658951C79C2B700FBBE69 /* SwiftGun2IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGun2IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A658991C79C2B700FBBE69 /* SwiftGun2IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGun2IOSUITests.swift; sourceTree = "<group>"; };
 		07A6589B1C79C2B700FBBE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A658A71C79D85900FBBE69 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		07A658A91C7A2BEA00FBBE69 /* YasSayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YasSayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				07A658791C79C2B700FBBE69 /* AppDelegate.swift */,
 				07A6587B1C79C2B700FBBE69 /* ViewController.swift */,
 				07A6587D1C79C2B700FBBE69 /* Main.storyboard */,
+				07A658A91C7A2BEA00FBBE69 /* YasSayViewController.swift */,
+				07A658A71C79D85900FBBE69 /* SecondViewController.swift */,
 				07A658801C79C2B700FBBE69 /* Assets.xcassets */,
 				07A658821C79C2B700FBBE69 /* LaunchScreen.storyboard */,
 				07A658851C79C2B700FBBE69 /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A658A81C79D85900FBBE69 /* SecondViewController.swift in Sources */,
 				07A6587C1C79C2B700FBBE69 /* ViewController.swift in Sources */,
+				07A658AA1C7A2BEA00FBBE69 /* YasSayViewController.swift in Sources */,
 				07A6587A1C79C2B700FBBE69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
